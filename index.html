@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img width="30" src="https://icon-library.com/images/dice_game_fun_cube-512.png" alt="">
+                        Dice Game
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="firstName" class="form-label">Enter First Player Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="John duo">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="secondName" class="form-label">Enter Second Player Name</label>
+                        <input type="text" class="form-control" id="secondName" placeholder="John duo">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <button class="btn btn-primary w-100">Start Game</button>
+                </div>
+            </div>
+        </div> -->
+        <div class="container scoreare">
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+                    <h1 class="result"></h1>
+                    <img width="250" src="https://giffiles.alphacoders.com/843/84347.gif" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container maingamearea">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="fs-1">Player One</span>
+                        </div>
+                        <div class="card-body  p-0">
+                            <div class="playgraound p-5 active">
+                                <p class="text-center fs-2">Total Score: <span class="score"></span></p>
+                                <div class="d-flex justify-content-center">
+                                    <img width="70" style="filter: invert(1);" src="./two.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="fs-1">Player Two</span>
+                        </div>
+                        <div class="card-body  p-0">
+                            <div class="playgraound p-5">
+                                <p class="text-center fs-2">Total Score: <span class="score"></span></p>
+                                <div class="d-flex justify-content-center">
+                                    <img width="70" style="filter: invert(1);" src="./two.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

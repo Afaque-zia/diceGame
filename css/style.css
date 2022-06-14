@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.playgraound{
+    background-color: rgb(255 195 116);
+}
+.playgraound.active{
+    background-color: rgb(156 156 255);
+}
+.scoreare{
+    display: none;
+}
